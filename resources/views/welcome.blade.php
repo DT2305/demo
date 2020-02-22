@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <link href={{asset("css/all.css")}} rel="stylesheet">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -81,11 +83,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                <i class="fab fa-laravel"></i>
+                    Laravel               
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                <i class="far fa-file-alt"></i><a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>

@@ -1,0 +1,23 @@
+<i class="fas fa-hourglass-half"></i>
+<i class="far fa-id-card"></i>
+<i class="fas fa-info-circle"></i>
+<i class="fas fa-infinity"></i>
+<!-- link -->
+<i class="fas fa-link"></i>
+<!-- check -->
+<i class="fas fa-check"></i>
+<i class="fas fa-check-double"></i>
+<i class="fas fa-check-circle"></i>
+<!-- file -->
+<i class="far fa-file"></i>
+<i class="fas fa-file-alt"></i>
+<i class="fas fa-file"></i>
+<!-- folder -->
+<i class="fal fa-folder"></i>
+<i class="fas fa-folder-plus"></i>
+<i class="fas fa-folder-minus"></i>
+<i class="fas fa-folder"></i>
+<!-- fire -->
+<i class="fas fa-fire"></i>
+
+<i class="fas fa-gem"></i>
