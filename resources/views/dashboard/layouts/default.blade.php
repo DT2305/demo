@@ -27,7 +27,7 @@
   </div>
   <!-- /.content-wrapper -->
 
-  @include('dashboard.includes.right-sidebar')
+  @include('dashboard.includes.sidebar-right')
 
 </div>
 <!-- ./wrapper -->

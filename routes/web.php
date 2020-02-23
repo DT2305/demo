@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::view('/example', 'content-example');
+
+Route::view('/submit', 'submit/submit-exampl-content');
