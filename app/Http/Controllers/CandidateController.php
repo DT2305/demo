@@ -93,7 +93,7 @@ class CandidateController extends Controller
             // 'subject3_3'    => $request->get(''),
         ]);
         $candidate->save();
-        return redirect()->route('candidate.create')->with('success','Theem thanh coong');
+        return redirect()->route('candidate.create')->with('Thêm thành công','');
     }
 
     /**

@@ -119,7 +119,7 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <div class="rs-select2 js-select-simple ">
-                                    <select name="province">
+                                    <select  name="province" id="province">
                                         <option disabled="disabled" selected="selected">-- Chọn Tỉnh/Thành phố</option>
                                         <option value="7">TP Cần Thơ</option>
                                     </select>
@@ -133,7 +133,7 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <div class="rs-select2 js-select-simple ">
-                                    <select name="district">
+                                    <select name="district" id="district">
                                         <option disabled="disabled" selected="selected">-- Chọn Quận/Huyện</option>
                                         <option value="7">Ninh Kiều</option>
                                     </select>
@@ -147,7 +147,7 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <div class="rs-select2 js-select-simple ">
-                                    <select name="ward">
+                                    <select name="ward" id="ward">
                                         <option disabled="disabled" selected="selected">-- Chọn Xã/Phường</option>
                                         <option value="7">An Lạc</option>
                                     </select>
@@ -166,4 +166,6 @@
         </div>
     </div>
 </div> 
+
+
 @endsection
