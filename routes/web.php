@@ -24,6 +24,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::view('/example', 'content-example');
 Route::view('/submit', 'submit/submit-exampl-content');
 Route::view('/index', 'index');
+Route::view('/cand','candidates/create');
 // -------------------------------Candidate-------------------------------
 
 // Route::resource('candidate','CandidateController');

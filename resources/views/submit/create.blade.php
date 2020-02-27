@@ -10,22 +10,22 @@
 
                 @if(count($errors) > 0)
                 <div class="alert alert-danger">
-                <ul>
-                @foreach($errors->all() as $error)
-                    <li>{{$error}}</li>
-                @endforeach
-                </ul>
+                    <ul>
+                        @foreach($errors->all() as $error)
+                        <li>{{$error}}</li>
+                        @endforeach
+                    </ul>
                 </div>
                 @endif
                 @if(\Session::has('success'))
                 <div class="alert alert-success">
-                <p>{{ \Session::get('success') }}</p>
+                    <p>{{ \Session::get('success') }}</p>
                 </div>
                 @endif
 
 
                 <form method="post" action="{{url('candidate')}}">
-                {{csrf_field()}}
+                    {{csrf_field()}}
                     <!-- Họ và tên -->
                     <div class="row row-space">
                         <div class="col-2">
@@ -90,8 +90,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <strong>Để biết rõ hơn về các đối tượng ưu tiên, các bạn có thể truy cập  </strong>
+
+                    <strong>Để biết rõ hơn về các đối tượng ưu tiên, các bạn có thể truy cập </strong>
                     <a href="http://tuyensinhvnuk.edu.vn/doi-tuong-uu-tien/" target="_blank">Tại đây!</a><br><br>
                     <!-- Hình thức xét tuyển -->
                     <div class="col-2">
@@ -119,7 +119,7 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <div class="rs-select2 js-select-simple ">
-                                    <select  name="province" id="province">
+                                    <select name="province" id="province">
                                         <option disabled="disabled" selected="selected">-- Chọn Tỉnh/Thành phố</option>
                                         <option value="7">TP Cần Thơ</option>
                                     </select>
@@ -165,7 +165,7 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
 @endsection
